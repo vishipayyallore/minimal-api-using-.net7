@@ -10,9 +10,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{7FFA3F99-74C2-42C1-954C-B19A352D1315}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{55EE7204-FD77-4D32-BFB2-5238D3702E30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postmancollections", "postmancollections", "{78DE4558-DDEF-407E-BC9E-543B9A3F8E2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B4CDF65-4C6B-4486-B804-55B259C29BC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BB6D37C1-5D02-4F7B-8D82-EBD892A30B5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.Api", "src\School.Api\School.Api.csproj", "{186A42C2-8017-4DF9-8210-B75432B9F1B4}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186A42C2-8017-4DF9-8210-B75432B9F1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186A42C2-8017-4DF9-8210-B75432B9F1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186A42C2-8017-4DF9-8210-B75432B9F1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186A42C2-8017-4DF9-8210-B75432B9F1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55EE7204-FD77-4D32-BFB2-5238D3702E30} = {7FFA3F99-74C2-42C1-954C-B19A352D1315}
+		{186A42C2-8017-4DF9-8210-B75432B9F1B4} = {0B4CDF65-4C6B-4486-B804-55B259C29BC6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D7634AF9-5273-46D0-85B4-1E9321C67BC5}
