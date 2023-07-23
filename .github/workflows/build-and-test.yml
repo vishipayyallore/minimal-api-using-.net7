@@ -19,6 +19,9 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{github.workspace}}
+      - name: List files in the repository V2
+        run: |
+          ls ${{github.workspace}}/src
       - name: Restore dependencies
         run: dotnet restore
         working-directory: ${{github.workspace}}/src
