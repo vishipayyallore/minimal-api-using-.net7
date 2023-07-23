@@ -21,7 +21,7 @@ jobs:
           ls ${{github.workspace}}
       - name: Restore dependencies
         run: dotnet restore
-        working-directory: ./src
+        working-directory: ${{github.workspace}}
       # - name: Build
       #   run: dotnet build --no-restore
       # - name: Test
