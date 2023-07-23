@@ -21,10 +21,10 @@ jobs:
           ls ${{github.workspace}}
       - name: List files in the repository V2
         run: |
-          ls ${{github.workspace}}/src
-      - name: Restore dependencies
-        run: dotnet restore ${{github.workspace}}/services-school.sln
-        # working-directory: ${{github.workspace}}/src
+          ls ${{github.workspace}}/src/School.Api
+      # - name: Restore dependencies
+      #   run: dotnet restore ${{github.workspace}}/services-school.sln
+      # working-directory: ${{github.workspace}}/src
       # - name: Build
       #   run: dotnet build --no-restore
       # - name: Test
