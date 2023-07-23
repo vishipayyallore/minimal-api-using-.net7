@@ -28,7 +28,8 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
         working-directory: ${{github.workspace}}/src/School.Api
-      # - name: Build
-      #   run: dotnet build --no-restore
+      - name: Build
+        run: dotnet build --no-restore
+        working-directory: ${{github.workspace}}/src/School.Api
       # - name: Test
       #   run: dotnet test --no-build --verbosity normal
