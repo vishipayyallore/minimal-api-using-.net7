@@ -15,12 +15,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{55EE7204-FD77-4D32-BFB2-5238D3702E30}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "postmancollections", "postmancollections", "{78DE4558-DDEF-407E-BC9E-543B9A3F8E2B}"
+	ProjectSection(SolutionItems) = preProject
+		postmancollections\Tobedone.txt = postmancollections\Tobedone.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B4CDF65-4C6B-4486-B804-55B259C29BC6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BB6D37C1-5D02-4F7B-8D82-EBD892A30B5C}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Tobedone.txt = tests\Tobedone.txt
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "School.API", "src\School.API\School.API.csproj", "{AEC37F37-E44B-4270-97F0-32DC561ADDEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "School.API", "src\School.API\School.API.csproj", "{AEC37F37-E44B-4270-97F0-32DC561ADDEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
