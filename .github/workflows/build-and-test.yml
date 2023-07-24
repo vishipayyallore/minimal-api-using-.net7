@@ -1,3 +1,6 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
 name: Services School .NET 7
 
 on:
@@ -31,5 +34,3 @@ jobs:
       - name: Build
         run: dotnet build --no-restore
         working-directory: ${{github.workspace}}/src/School.Api
-      # - name: Test
-      #   run: dotnet test --no-build --verbosity normal
