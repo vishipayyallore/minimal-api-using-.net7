@@ -1,3 +1,5 @@
+using School.API.Business;
+using School.API.Data.Dtos;
 using static School.API.ApplicationCore.Common.Constants;
 
 var builder = WebApplication.CreateBuilder(args);
