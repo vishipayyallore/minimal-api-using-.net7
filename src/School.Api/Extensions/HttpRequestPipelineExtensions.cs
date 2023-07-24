@@ -22,7 +22,7 @@ public static class HttpRequestPipelineExtensions
 
         // Endpoints
         app.MapHelloWorldEndpoints();
-        //app.MapUserEndpoints();
+        app.MapUserEndpoints();
         //app.MapCourseEndpoints();
 
         return app;
