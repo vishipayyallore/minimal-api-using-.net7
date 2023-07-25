@@ -1,4 +1,11 @@
-﻿namespace School.Repositories;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using School.ApplicationCore.Interfaces;
+using School.Data.Dtos;
+using School.Persistence;
+
+namespace School.Repositories;
 
 public class CoursesRepository : ICoursesRepository
 {
