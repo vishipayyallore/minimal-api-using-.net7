@@ -1,4 +1,7 @@
-﻿namespace School.API.Endpoints;
+﻿using School.Data.Dtos;
+using static School.ApplicationCore.Common.Constants;
+
+namespace School.API.Endpoints;
 
 public static class HelloWorldEndpoints
 {

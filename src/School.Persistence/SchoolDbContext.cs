@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using School.Data.Entities;
+using School.Persistence.SeedData;
 
 namespace School.Persistence;
 
