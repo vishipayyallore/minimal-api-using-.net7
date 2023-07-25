@@ -1,7 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using School.Data.Entities;
 
-namespace School.API.Persistence.SeedData;
+namespace School.Persistence.SeedData;
 
 internal class CourseData : IEntityTypeConfiguration<Course>
 {
