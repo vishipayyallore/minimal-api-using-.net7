@@ -1,5 +1,4 @@
-﻿using School.API.Business;
-using School.API.Configuration;
+﻿using School.API.Configuration;
 
 namespace School.API.Extensions;
 

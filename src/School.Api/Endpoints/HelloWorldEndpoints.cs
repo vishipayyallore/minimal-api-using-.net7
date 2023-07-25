@@ -1,6 +1,4 @@
-﻿using School.API.Business;
-
-namespace School.API.Endpoints;
+﻿namespace School.API.Endpoints;
 
 public static class HelloWorldEndpoints
 {

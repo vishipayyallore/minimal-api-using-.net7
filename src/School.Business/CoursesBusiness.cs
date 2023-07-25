@@ -1,4 +1,8 @@
-﻿namespace School.API.Business;
+﻿using Microsoft.Extensions.Logging;
+using School.ApplicationCore.Interfaces;
+using School.Data.Dtos;
+
+namespace School.Business;
 
 public class CoursesBusiness : ICoursesBusiness
 {
