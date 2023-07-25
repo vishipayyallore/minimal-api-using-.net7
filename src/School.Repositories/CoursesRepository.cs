@@ -1,8 +1,4 @@
-﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore;
-using School.API.Persistence;
-
-namespace School.API.Repositories;
+﻿namespace School.Repositories;
 
 public class CoursesRepository : ICoursesRepository
 {
