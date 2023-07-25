@@ -1,4 +1,6 @@
-﻿namespace School.API.ApplicationCore.Interfaces;
+﻿using School.Data.Dtos;
+
+namespace School.ApplicationCore.Interfaces;
 
 public interface ICoursesBusiness
 {
