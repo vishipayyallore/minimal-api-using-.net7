@@ -1,4 +1,5 @@
 ﻿using School.API.Endpoints;
+using School.Persistence;
 
 namespace School.API.Extensions;
 
