@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using School.API.ApplicationCore.Interfaces;
-using School.API.Data.Dtos;
-using School.API.Data.Entities;
-using static School.API.ApplicationCore.Common.Constants;
+using School.ApplicationCore.Interfaces;
+using School.Data.Dtos;
+using School.Data.Entities;
+using static School.ApplicationCore.Common.Constants;
 
 namespace School.API.Endpoints;
 

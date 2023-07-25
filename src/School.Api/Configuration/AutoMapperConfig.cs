@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using School.API.Data.Dtos;
-using School.API.Data.Entities;
+using School.Data.Dtos;
+using School.Data.Entities;
 
 namespace School.API.Configuration;
 

@@ -1,6 +1,6 @@
-﻿using School.API.Data.Dtos;
+﻿using School.Data.Dtos;
 
-namespace School.API.ApplicationCore.Interfaces;
+namespace School.ApplicationCore.Interfaces;
 
 public interface ICoursesBusiness
 {
