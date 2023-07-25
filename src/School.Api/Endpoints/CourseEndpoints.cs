@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using School.API.ApplicationCore.Interfaces;
 using School.API.Data.Dtos;
 using School.API.Data.Entities;
 using static School.API.ApplicationCore.Common.Constants;
@@ -12,10 +13,11 @@ public static class CourseEndpoints
         var group = routes.MapGroup(CoursesRoutes.Prefix).WithTags(nameof(Course));
 
         _ = group.MapGet(CoursesRoutes.Root, async ([FromServices] ICoursesBusiness coursesBusiness) =>
-        {
-            return Results.Ok(await coursesBusiness.GetAllCourses());
+            {
+                return Results.Ok(await coursesBusiness.GetAllCourses());
 
-        }).AllowAnonymous()
+            })
+          .AllowAnonymous()
           .WithName("GetAllCourses")
           .Produces<ApiResponseDto<IReadOnlyCollection<CourseDto>>>(StatusCodes.Status200OK)
           .ProducesProblem(StatusCodes.Status500InternalServerError)
