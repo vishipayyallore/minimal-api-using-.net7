@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using School.API.Data.Entities;
 
 namespace School.API.Persistence.SeedData;
 

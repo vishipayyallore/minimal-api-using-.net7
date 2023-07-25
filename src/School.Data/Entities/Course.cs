@@ -1,4 +1,4 @@
-﻿namespace School.API.Data.Entities;
+﻿namespace School.Data.Entities;
 
 public class Course : BaseEntity
 {

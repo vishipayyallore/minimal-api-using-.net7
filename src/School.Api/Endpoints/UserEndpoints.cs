@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using School.API.Data.Dtos;
-using static School.API.ApplicationCore.Common.Constants;
 
 namespace School.API.Endpoints;
 

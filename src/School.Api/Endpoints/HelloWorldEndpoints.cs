@@ -1,6 +1,4 @@
 ﻿using School.API.Business;
-using School.API.Data.Dtos;
-using static School.API.ApplicationCore.Common.Constants;
 
 namespace School.API.Endpoints;
 
