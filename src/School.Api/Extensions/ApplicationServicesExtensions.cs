@@ -1,10 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using School.API.Configuration;
+﻿using School.API.Configuration;
 using School.ApplicationCore.Interfaces;
 using School.Business;
-using School.Persistence;
 using School.Repositories;
-using static School.ApplicationCore.Common.Constants;
 
 namespace School.API.Extensions;
 
