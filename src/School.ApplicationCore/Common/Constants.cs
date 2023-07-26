@@ -33,4 +33,10 @@ public static class Constants
     {
         public static string Name { get; } = "SchoolDatabase";
     }
+
+    public static class SqlDatabaseConnectionStringName
+    {
+        public static string Name { get; } = "StudentDbConnection";
+    }
+
 }

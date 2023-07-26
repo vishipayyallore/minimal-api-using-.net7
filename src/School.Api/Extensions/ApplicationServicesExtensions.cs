@@ -1,10 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using School.API.Configuration;
+﻿using School.API.Configuration;
 using School.ApplicationCore.Interfaces;
 using School.Business;
-using School.Persistence;
 using School.Repositories;
-using static School.ApplicationCore.Common.Constants;
 
 namespace School.API.Extensions;
 
@@ -12,7 +9,8 @@ public static class ApplicationServicesExtensions
 {
     public static IServiceCollection ConfigureApplicationServices(this IServiceCollection services)
     {
-        _ = services.AddDbContext<SchoolDbContext>(options => options.UseInMemoryDatabase(InMemoryDatabase.Name));
+        // This is for In Memory Database
+        // _ = services.AddDbContext<SchoolDbContext>(options => options.UseInMemoryDatabase(InMemoryDatabase.Name));
 
         _ = services.AddAutoMapper(typeof(AutoMapperConfig));
 
