@@ -12,7 +12,8 @@ public static class ApplicationServicesExtensions
 {
     public static IServiceCollection ConfigureApplicationServices(this IServiceCollection services)
     {
-        _ = services.AddDbContext<SchoolDbContext>(options => options.UseInMemoryDatabase(InMemoryDatabase.Name));
+        // This is for In Memory Database
+        // _ = services.AddDbContext<SchoolDbContext>(options => options.UseInMemoryDatabase(InMemoryDatabase.Name));
 
         _ = services.AddAutoMapper(typeof(AutoMapperConfig));
 
