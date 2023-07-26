@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using School.API.Extensions;
 using School.Persistence;
+using static School.ApplicationCore.Common.Constants;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.ConfigureApplicationServices();
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("StudentDbConnection");
+var connectionString = builder.Configuration.GetConnectionString(SqlDatabaseConnectionStringName.Name);
 builder.Services.AddDbContext<SchoolDbContext>(options =>
 {
     // const string connectionString = "name=StudentDbConnection"; /* This will also read from appsettings.json */
